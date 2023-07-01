@@ -1,19 +1,19 @@
 
-###[Middlemak Layout and Heatmap](https://imgur.com/a/xl69OcK)
+### [Middlemak Layout and Heatmap](https://imgur.com/a/xl69OcK)
 
     QWLDG JFOU:
     ASRTP YNEIH
     ZXCVB KM,./
 
-####[Middlemak GitHub download.](https://github.com/KeyboardLayout2/Middlemak)
+#### [Middlemak GitHub download.](https://github.com/KeyboardLayout2/Middlemak)
 
-####Variant: Middlemak-NH.
+#### Variant: Middlemak-NH.
 
     QWLDG JFOU:
     NSRTP YHEIA
     ZXCVB KM,./
 
-####[Middlemak-NH GitHub download.](https://github.com/KeyboardLayout2/Middlemak-NH)
+#### [Middlemak-NH GitHub download.](https://github.com/KeyboardLayout2/Middlemak-NH)
 
 Middlemak is named for using the middle-finger-upper-row position for frequent letters. The bulk of the discussion is about Middlemak. Middlemak-NH will mostly be discussed separately, see the option header. 
 
@@ -51,7 +51,7 @@ Using the middle finger also unloads the index fingers. The index fingers can ge
 
 ### 2) Pinballing
 
-I wrote about pinballing in length below (Ctrl+f "My Personal Ponderings). The short of it is that there is an incredibly strong interaction between vowels and the consonants, with 75% of all bigrams between vowels and consonants. PInballing can happen when a lot of vowels and consonants are put on the same hand, the hand movement will pinball back and forth between the vowels and consonants. This would be redirects upon redirects, etc. 
+I wrote about pinballing in length [below](https://www.reddit.com/r/Middlemak/wiki/index#wiki_my_personal_ponderings). The short of it is that there is an incredibly strong interaction between vowels and the consonants, with 75% of all bigrams between vowels and consonants. PInballing can happen when a lot of vowels and consonants are put on the same hand, the hand movement will pinball back and forth between the vowels and consonants. This would be redirects upon redirects, etc. 
 
 I’ll cover Colemak first to outline the issue. Having most of the vowels EOIUY and many frequent  consonants of NHLMKJ on the right hand leads to a pinballing problem. I call this the NHLMKJ wall, it’s a wall of consonants that the vowels pinball off of. As in you’ll type a vowel, then one of the right hand consonants, then a vowel again, then a right hand consonant, etc. E.g. the word “unlikely” (on Colemak).
 
@@ -123,7 +123,7 @@ The SFB of Middlemak is still pretty low, but it does come out a tad higher than
 I’ve debated how to show this and decided to go with the full nuclear information. Data is from Mayzner revisited in millions (which only has letter bigrams and doesn’t have punctuation data, that’s what the 0’s are).
 
 Keyboard|Total SFB|Left hand SFB|Right hand SFB|L Pinky|L Ring|L Middle|L Index|R Index|R Middle|R Ring|R Pinky
-:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--
+:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--
 QWERTY|185,270|125,920|59,350|1,105|1,661|54,502|68,651|34,166|3,970|21,214|0
 Beakl-15|85,917|33,527|52,390|2|21,580|3,134|8,812|18,927|31,183|2,157|123
 Workman|78,147|29,268|48,878|1,105|3,712|2,806|21,645|27,338|5,037|16,503|0
@@ -183,7 +183,7 @@ Ok I confirmed the big gap is from punctuation. Changing Middlemaks `,./` to `�
 ### Ortho SFB
 
 Keyboard|Total SFB|Left hand SFB|Right hand SFB|L Pinky|L Ring|L Middle|L Index|R Index|R Middle|R Ring|R Pinky
-:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--
+:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--
 QWERTY|195,687|136,337|59,350|1,105|1,661|86,462|47,108|34,166|3,970|21,214|0
 Beakl-15|85,917|33,527|52,390|2|21,580|3,134|8,812|18,927|31,183|2,157|123
 Workman|79,561|30,682|48,878|1,105|3,712|8,206|17,659|27,338|5,037|16,503|0
@@ -404,7 +404,7 @@ Conclusion:
 
 I think this is an extraordinary layout. It has low SFB, alternates hands, in league with many full change layouts, all while keeping Qwerty similarity.
 
-###Quick thoughts on other layout’s O and centre column NFBs.
+### Quick thoughts on other layout’s O and centre column NFBs.
 
 One of the issues with putting O on the middle-finger-upper-row is that the EO column has a ton of frequency that pairs with the centre column. Think of Colemak’s HE, but now you have an O as well. You have to be careful or theyadd up pretty quickly.
 
@@ -422,16 +422,16 @@ Nerps has a notable handful more than Middlemak with BO/OB. Not huge but not not
 
 If people really want I can put in charts for this. Have them in excel but it’s a lot of data.
 
-###Quick thoughts on columns
+### Quick thoughts on columns
 
 A lot of these layouts share similar columns. For consonants many have RL, TD, SW. A lot seems to come down to the C and what to do with it. It’s interesting to see Canary put C essentially by itself, which means 4 common letters are put off the homerow. Nerps and CTGAP put SCW on the same finger. APTv3 makes SC.
 
 
-#Excessive amount of stats
+# Excessive amount of stats
 
 This section has details on distance reductions, hand balance based on frequency, hand balance based on distance, and raw distance numbers. I'm going to give lots of charts to cover all the details. Those that want to know all the details or those that like to analyze will find this interesting, but others don’t have to read. 
 
-##Distance reduction from Qwerty
+## Distance reduction from Qwerty
 
 Keyboard|Distance|Distance|Distance
 :--|:--|:--|:--
@@ -458,7 +458,7 @@ Middlemak’s distance reduction is good, most alt keyboards are in the same ran
 
 Other layouts notes: Canary doesn’t reduce as much because putting C on the homerow means there are 4 common letters off home row.
 
-##All Finger Distances
+## All Finger Distances
 
 This is the raw distance travelled in metres. Percentages rely on the total distance travelled, which changes between layouts so it's not comparable. Note that distance is different from frequency. The fingers don't move for the home row, the distance travelled is to the other letters.
 
@@ -489,7 +489,7 @@ Middlemak balances this out decently and moves more distance to both middle fing
 
 The right index finger is low, a good feature that the index finger next to the vowels doesn’t have to travel much. Compared to Colemak, Middlemak’s movement is 41% lower than Colemaks.
 
-###Zoom in on index fingers
+### Zoom in on index fingers
 
 Keyboard|Distance|Distance|Total|Index Finger % of total distance
 :--|:--|:--|:--|:--
@@ -517,7 +517,7 @@ You can also look at the percentage of travel with the index finger. Middlemak�
 
 So even when Middlemak’s left index finger doesn’t have a reduction in distance, the total index finger distance is significantly reduced.
 
-##Hand Balance based on Distance %
+## Hand Balance based on Distance %
 
 This is the distance in percentages for all the fingers (unlike the raw distances in metres above) so that I can add them up to look at hand balance.
 
@@ -544,7 +544,7 @@ I think the raw distances are better for comparison between layouts, but some pe
 
 You can see Middlemak spreads out the work. The pinkies are low, ring fingers are reasonable, middle takes on more, and the indexes have most of the distances. 
 
-##Hand Balance based on Frequency
+## Hand Balance based on Frequency
 
 Now we’re shifting to frequency. You can see the data for all the fingers, this is enlightening on its own. I also add them up to look at the hand balance.
 
@@ -573,7 +573,7 @@ E is so common that it bumps up any finger it’s on.
 
 Middlemak’s left middle finger takes on a bit more work. The left index is still high because of D. The right index is notably lower taking off common letters. The right middle takes on more of the work with O. And the right pinky is lower too with the H there. 
 
-##Hand Balance Distance + Frequency
+## Hand Balance Distance + Frequency
 
 This is the same chart that was above, just for a summary.
 
@@ -597,7 +597,7 @@ Semimak|Right|Right|1.15|1.30|**1.49**|
 
 Sorted by SFB count. Ratio of >1 indicates right hand dominant, <1 indicates left hand dominant. Hand Balance ratio based on Frequency **and** Distance is a simple multiplication of the two.
 
-##Frequency-off-home-row (F.O.H.R.)
+## Frequency-off-home-row (F.O.H.R.)
 
 At the risk of too much information, another way to look at this is the frequency that’s off-home-row. I.e. the frequency that is not under the fingers.
 
@@ -628,7 +628,7 @@ Also insightful is “Index FOHR as % of All fingers FOHR”. It shows that on M
 
 This is similar to “Zoom in on the index fingers”, but this shows an even greater difference between Middlemak and Colemak. This shows Middlemak at 48% and Colemak at 65% based on index finger % of total FOHR. Recall Middlemaks was 47% and Colemaks was 61% based on index finger % of total distance. Same thing, when the distances to the diagonals are levelled out, the frequency stands out.
 
-##Pinballing stats
+## Pinballing stats
 
 Keyboard|Vowel %|Consonant %|Consonant % minus home row
 :--|:--|--:|--:
@@ -654,7 +654,7 @@ There are issues with this, it's based on frequency rather than actual specific 
 The Consonant % minus home row is given because the home row is easier to type on. The consonants that are not on home-row are more awkward to move to.
 
 
-#Excessive amount of detail on letters for Middlemak
+# Excessive amount of detail on letters for Middlemak
 
 You really don’t need to read this, mostly if you have any lingering or specific Q on specific letters.
 
@@ -718,13 +718,13 @@ Y goes to the index finger, which actually works pretty well. I broke down the n
 
 F goes to the right hand index finger, because putting P or G on the right hand gives too many SFB with M and N. The F location works quite well for both moderate frequency and low SFB. It has a lot of NFB with OF/FO, so placing it next to O makes a comfortable roll.
 
-#My Personal Ponderings
+# My Personal Ponderings
 
-###Layout Flavour
+### Layout Flavour
 
 There are two main factors that impact the flavour of a layout. I cover this in the next two sections.
 
-###Interaction between Vowels & Consonants, Hand comfort, and Hand Balance
+### Interaction between Vowels & Consonants, Hand comfort, and Hand Balance
 
 First is the interaction between vowels and consonants. What got me thinking about this is how to measure hand dominance. The two most obvious metrics for hand dominance are 1) The number of key presses 2) The distance the hand has to travel (which is different from the number of key presses, because you don't travel to the home-row). But that doesn’t seem sufficient to me anymore.
 
@@ -732,7 +732,7 @@ How I’m thinking of this now is the interaction between the vowels and the con
 
 The interaction between vowels and consonants is the easiest way to think about bigrams and longer patterns that emerge from that. I think how arranges the vowels and consonants is the first factor that impacts the flavour of a layout. 
 
-###Letter Placement of the 9th, 10th, and 11th most common letters.
+### Letter Placement of the 9th, 10th, and 11th most common letters.
 
 The second factor in layout flavour is the placement of the 9th, 10th, and 11th most common letters. When you look at the [letter frequency](https://commons.wikimedia.org/wiki/File:English_letter_frequency_(frequency\).svg) there's 11 very common letters before it takes a drop. There's 8 spots underneath the fingers, where the first 8 letters go. So that leaves 3 common letters and where do they go?
 
@@ -741,7 +741,7 @@ Colemak places them on the index fingers laterally and index finger upper row. C
 Wherever they go is the second big factor in the "flavour" of that layout. That is where most common finger movement will be, so it better be in a strong location in addition to a good flow with the consonant vowel interaction. 
 
 
-###Is it rolls, pinball, or alternating hands?
+### Is it rolls, pinball, or alternating hands?
 
 I can see this as highly subjective, this is my take. 
 
@@ -756,7 +756,7 @@ This is not limited to a number, but the dividing line is *typically* the trigra
 **The easiest way to avoid this pinball effect entirely is to alternate hands.** This is best done by putting the vowels on one hand and the consonants on the other. This was how Dvorak approached it and I’m starting to recognize the advantages of it more. 
 
 
-#####Colemak
+##### Colemak
 
 Colemak has E I O U Y (all except A) on the right hand. This is 80% of the vowel frequency. Combined with several frequent consonants N H L M + K J this leads to a lot of bi/tri/quad/+grams that are done on the right hand.
 
@@ -765,25 +765,25 @@ First, this can be the cause of uncomfortable NFB (Neighbour finger bigrams). So
 Second there can be a significant pinball effect where it bounces repeatedly between the right hand vowels and the frequent N H L M + K J. Or longer patterns with only token input from the left hand. E.g. a bi/trigram on the right hand, followed by one letter on the left hand, then another bi/trigram on the right hand again is still very right hand dominant.
 
 
-#####Colemak-DH
+##### Colemak-DH
 
 The right hand swaps H and M. That works to reduce the frequency of the center column, which some find awkward. But it doesn't change, as I see it, the underlying problem of a pinballing effect between the letters and consonants.
 
 Another point, Colemak with DH changes a lot of the keyboard. At that point, users can also consider full change layouts. Colemak DH leaves shortcuts *accessible*, but for typing it’s a lot of changes and you can consider a full change layout instead.
 
-#####Workman
+##### Workman
 
 Workman also has E I O U Y on the right hand. But it gets rid of H and M on the vowel hand, replacing them with less frequent P and F. This will reduce the pinball effect compared to Colemak since it's now those vowels with N L P F K J. Not sure if that was a goal but that’s how I see this aspect, and a main advantage of Workman. 
 
-#####Norman
+##### Norman
 
 Norman keeps E A on the left hand and I O U Y on the right. This spreads out the vowel frequency, with E A being 52% of the vowel frequency and I O U Y  being 48%. The pinball effect is effectively more random with half the vowel frequency on each hand. There will be some level of pinballing on each hand, but with effectively 50/50 vowels on either hand it really shouldn't get caught on either hand for long. It relies on randomness though instead of by design, so some will happen. But it should break up many, but not all, longer quad/penta+grams and break up hand dominance. At least that's how I'm leaning towards looking at it.
 
-#####Dvorak
+##### Dvorak
 
 Dvorak addressed this by creating alternating hands, by putting all the vowels on one hand and all the consonants on the other. This naturally breaks up most bigrams between hands. Tri+grams would basically be nonexistent. But with only 6 vowels and 20 consonants there is a discrepancy in sheer numbers that can’t easily be solved. Dvorak puts the punctuation and a few infrequent consonants with the vowels. But the right hand has pretty much all the 20 consonants - all the frequent and middle of the pack ones. Thus the right hand has most of the hand movement, 65% - a ratio of almost 2:1. (And if you swap the obvious U-I, the right hand goes up to 71% of the distance, a ratio of 2.4:1.) While it breaks up the bigrams quite well, with a movement imbalance like that I can’t call that balanced either. There are also 7 very frequent consonants and only 4 spots under the fingers, so Dvorak puts 3 off the home row - one on the index, one on the ring, and one on the pinky. The L on the pinky finger-upper row is not a good choice imo. And Dvorak oddly puts the I in the centre column instead of U.
 
-#####MTGAP
+##### MTGAP
 
 [MTGAP keyboard layout](https://github.com/kenranunderscore/mtgap-layout) is a computer generated layout that’s interesting on a few fronts.
 
@@ -823,7 +823,7 @@ Interestingly and oddly, MTGAP 2.0 came out with a very different concept. Not s
 [APTAP](https://github.com/Apsu/APTAP/tree/main) is another iteration.
 
 
-#####Epic ~~Rap~~ Pinball battle of layouts: Colemak vs MTGAP
+##### Epic ~~Rap~~ Pinball battle of layouts: Colemak vs MTGAP
 
 But wait, didn’t I say Colemak had pinballing with the vowels and NHLMKJ? How does that compare to MTGAP's vowels and NPJQZ? Simply put, there's more pinballing on Colemak and less on MTGAP. For a proper look I’d have to add up all the tri/quad/penta/+grams (that's where the pinball becomes a problem) between the consonants and vowels on the hand, but to give a quick picture let’s just look at the consonant frequency. Colemak’s NHLMKJ is 34% frequency of all consonants, MTGAP’s NPJQZ is 15%. That’s a big difference, Colemak’s NHLMKJ is 1/3 of consonant frequency, MTGAP’s is 1/6.6. So MTGAP’s consonants will give far less pinballing where it’s stuck on one hand for long.
 
@@ -831,13 +831,13 @@ There’s probably another factor on comfort: which consonants are *on* vs. *off
 
 Caveats and considerations: MTGAP’s addition / Colemak's subtraction of A with the rest of the vowels will change it, but remember Colemak's EOIUY is already 80% of vowel frequency. So I think the consonant frequencies 34% vs 15%, and 22% vs 4% for off home row, still give a very good idea of what’s going on. The probabilities would be 1.0\*0.8\*0.34... vs 1.0\*1.0\*0.15...
 
-#####QGMLWY
+##### QGMLWY
 
 QGMLWY also puts all the vowels on one hand and adds H and P. It also puts a vowel on the index finger, which leads to  Same Finger Bigram (SFB). Dvorak's index SFB isn’t actually that bad, but QGMLWYs is surprisingly *quite* high on the index finger.
 
 QGMLWY puts two frequent letters in the centre column, which puts a lot of work on the index fingers and has a quite high SFB on the index fingers. QGMLWY also fixed the punctuation in place. Allowing the punctuation to change opens many more optimization paths, like on the index finger.
 
-#####BEAKL-15, Hands Down, ISRT
+##### BEAKL-15, Hands Down, ISRT
 
 BEAKL-15 and Hands Down also put all the vowels on one hand and also have the bold O above E. BEAKL-15 adds H to the vowels which I like. Hands Down adds the far less frequent W - no frequent letters. These also put a vowel on the index finger, which can lead to Same Finger Bigram. I didn’t run the numbers, but BEAKL-15 should be less because it puts 2 punctuation keys, Hands Down I'm not sure with since it has the less frequent U, but also has Y. ISRT avoids this by putting I and Y on the opposite hand with the consonants, but that subtracts from the alternating concept.
 
@@ -845,19 +845,19 @@ BEAKL-15 has a high overall distance traveled because it avoids putting frequent
 
 Both BEAKL-15 and Hands Down put frequent letters on the bottom row middle finger, which is likely better on a matrix keyboard. For a standard keyboard, I think MTGAP would be more comfortable. 
 
-#####Halmak
+##### Halmak
 
 This also has vowels on one side with D for balance. But D is off the home row so will have more uncomfortable rolls than MTGAP. 
 
 For general design, it has one letter on the middle finger-upper row while MTGAP has 2 which is better in my opinion. 
 
-#####Engram
+##### Engram
 
 Engram puts all the vowels on one hand with the C under a finger, a middle of the pack consonant. So not as balanced. Putting a middle of the pack consonant under the finger also means the distance travelled is bumped up. Not as much as BEAKL-15 or Hands Down but still higher than most.
 
 Engram also changes the qwerty position of “[“. While I’m a fan of opening up 31 key locations to changes to get optimization (the standard 30 + ‘), I think going beyond that is dicey. Same with all the special characters that it changes. 
 
-#####Conclusion on pinballing
+##### Conclusion on pinballing
 
 With all this, I think if you want a very optimized layout, a layout with the vowels on one hand (plus at least one frequent consonant for balance) and consonants on the other makes the most sense. MTGAP looks the most appealing, I’m starting to think of it like a modern day Dvorak. Though I’d be tempted to switch the H and N around, but that needs a more thorough analysis with all the knock on effects.
 
@@ -869,7 +869,7 @@ Back to Norman, the advantage Norman still has is that it can be picked up quick
 
 On Dvorak, if you modify it to solve the most pressing issues of I and L, then you lose the advantage that it’s already installed on OS’s. So why not learn a more optimized layout like MTGAP at that point.
 
-###Right or left hand dominant?
+### Right or left hand dominant?
 
 Some say it should be right hand dominant because most people are right handed. But look at pianists, I doubt they have an issue with the left hand. Right handedness is more for fine motor control, pressing keys doesn't really require fine control. So I think the concept of the right hand being any better for typing is off the mark or exaggerated. I think the hands are more or less equivalent for typing.
 
@@ -882,7 +882,7 @@ To put the odd vowel out on the index finger can easily lead to SFBs. To put Y o
 Workman just says nuts to it and keeps it on the index finger. MTGAP puts two vowels on the index finger. Colemak leaves A in the QWERTY position, thus avoiding the problem.
 
 
-##Quick layout evaluation (Work in progress)
+## Quick layout evaluation (Work in progress)
 
 For those new and don’t know how to think about layouts, I’ll write my quick thoughts on how to evaluate layouts.
 
@@ -896,7 +896,7 @@ A whopping 75% of bigrams are between vowels and consonants. Most layouts make a
 
 Related to this vowel consonant interaction I see two main layout families: The A-layouts and the O-layouts.
 
-####The A-layouts
+#### The A-layouts
 
 These are the layouts that put A on the left hand with the consonants. You see this with Colemak, Colemak-DH, Workman, Soul, Middlemak, and I’m including ISRT.
 
@@ -904,7 +904,7 @@ There was difficulty getting all the vowels on one hand*, so these layouts leave
 
 This is ok but is not the most optimal.
 
-####The O-layouts
+#### The O-layouts
 
 These are the layouts that put O on the upper row on the vowel hand. Typically above E, but you also see above A. You see this with MTGAP, CTGAP, Canary, Semimak, Nerps, APTv3, Hands Down, Middlemak and Middlemak-NH. AFAIK this started with MTGAP, and the community has been playing with it since. 
 
@@ -941,7 +941,7 @@ Putting the 4 low frequency letters on the pinky or ring fingers means the middl
 
 So know your fingers and where you want the work. 
 
-###Difficulty maps
+### Difficulty maps
 
 You typically see the standard difficulty map that puts a difficulty on each key. But I think you need more than the one standard difficulty map. For a fully optimized layout, you also need a difficulty map for ease-of-movement from one key to the next key. For example, on Qwerty the movement QA is slow, QS is very hard, QD is still hard, QF is ok, QZ is horrendous, QX is both horrendous and awkward, QC (with index pressing C) is meh but not good, QW is ok, QE is ok, QR is ok, (but all lead to a slightly weird hand position after), etc, *but Q+anything-on-right-hand is much better.* You want to create a whole map for Q and the difficulty of the next letter. But I think most analyzers and people focus on QA and QZ because it's a SFB. I think for a fully optimized computer analysis you need 31 difficulty maps - a map for each key and the difficulty of the next key. That’s on top of the standard single difficulty map.
 
@@ -956,7 +956,7 @@ As for quadrigrams, the difficulty between the first and fourth letter, by the t
 
 [But didn’t I say that patterns come last? For ease-of-transition I think that’s true, first focus on getting frequent letters to the home row and to good spots first. Qwerty is just that bad that it didn’t even do this. My ponderings here are about getting full 100% optimization. There is no easy transition option for this principle. I still think Norman is excellent as an 80-20 fix.]
 
-###Distance
+### Distance
 
 The distance travelled is a factor. The biggest benefit is from reducing it down from the insane Qwerty distances, but after that I think it’s diminishing returns. For example, the distance improvements that Colemak, Norman, and Workman make are all important. But the differences between them are so minor that any difference is negligible. I’m not sure how diminishing returns on distances can be programmed into an analyzer.
 
@@ -966,7 +966,7 @@ As for getting infrequent letters on the diagonals, this can be influenced by bo
 
 I can’t be the only one that thinks the left shift is more comfortable. So an analyzer could include using the left shift key with most of the frequent capital letters (like the start of words and “The”) being in a comfortable position, the right hand being obviously better. 
 
-##More Analyzer
+## More Analyzer
 
 Of course from everything above, I think the index fingers shouldn’t be overloaded either. The only way I can see programming this is as a relative multiple to the other fingers. I think this is necessary since the bigram map wouldn’t account for the distance, just the difficulty/comfort. 
 
