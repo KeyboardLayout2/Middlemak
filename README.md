@@ -498,9 +498,9 @@ QWERTY|1413|1169|2582|53%
 Beakl-15|344|810|1154|37%
 Canary(ansi)|625|638|1263|45%
 Dvorak|692|753|1445|51%
-Semimak|390|506|896 m|33%
+Semimak|390|506|896|33%
 **Middlemak**|**847**|**440**|**1287**|**47%**
-**Middlemak**|**847**|**440**|**1287**|**48%**
+**MiddlemakNH**|**847**|**440**|**1287**|**48%**
 CTGAP(final/5)|646|524|1169|44%
 APTv3|469|283|752|28%
 Nerps|579|386|965|37%
@@ -604,7 +604,7 @@ At the risk of too much information, another way to look at this is the frequenc
 Distances weigh the keys differently, while frequency-off-home-row levels that field. This should be read in conjunction with distance. Neither is better than the other, it’s just a different measurement.
 
 Keyboard|L Pinky|L Ring|L Middle|L Index|R Index|R Middle|R Ring|R Pinky|L+R Index|Index FOHR as % of All fingers FOHR
-:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--
+:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--
 QWERTY|1.6|2.1|11.6|21.4|18.6|7.5|7.8|4.5|40.0%|53%
 Beakl-15|2.2|5.6|7.2|5.3|12.7|9.7|3.9|2.6|18.0%|37%
 Canary(ansi)|3.4|3.6|3.2|10.2|10.2|8.0|3.1|2.6|20.4%|46%
@@ -873,7 +873,7 @@ On Dvorak, if you modify it to solve the most pressing issues of I and L, then y
 
 Some say it should be right hand dominant because most people are right handed. But look at pianists, I doubt they have an issue with the left hand. Right handedness is more for fine motor control, pressing keys doesn't really require fine control. So I think the concept of the right hand being any better for typing is off the mark or exaggerated. I think the hands are more or less equivalent for typing.
 
-###Vowels hand and Y
+### Vowels hand and Y
 
 The letter Y is an interesting problem if you want to have all the vowels on one hand. With 6 vowels, you have to put one vowel on either the index finger or the pinky upper row. The odd one out is commonly Y, though it can be any vowel. 
 
@@ -882,66 +882,97 @@ To put the odd vowel out on the index finger can easily lead to SFBs. To put Y o
 Workman just says nuts to it and keeps it on the index finger. MTGAP puts two vowels on the index finger. Colemak leaves A in the QWERTY position, thus avoiding the problem.
 
 
-## Quick layout evaluation (Work in progress)
+# Quick layout evaluation
+
+(Work in progress). 
 
 For those new and don’t know how to think about layouts, I’ll write my quick thoughts on how to evaluate layouts.
 
-First: we have to know about the vowel and consonant interaction. 
 
-Second: We have to think about where the 9th, 10th, and 11th common letters go.
+## The factors
 
 ### Vowel Consonant interaction
 
-A whopping 75% of bigrams are between vowels and consonants. Most layouts make a vowel hand to some extent or the other.
+A whopping 75% of bigrams are between vowels and consonants. As in the 75% of text goes consonant-vowel or vowel-consonant.
 
-Related to this vowel consonant interaction I see two main layout families: The A-layouts and the O-layouts.
+Placing vowels and consonants on opposite hands will mean you alternate hands. And placing vowels and consonants together means they will interact with each other. How the layout places vowels and consonants is the most notable aspect of the layout. 
 
-#### The A-layouts
+But you need some consonants on the vowel hand because 1) there are so many consonants, and 2) to balance the hands. You see this problem with Dvorak - the consonant hand has all of the frequent and middle of the pack consonants, resulting in the consonant hand doing way more of the work.
 
-These are the layouts that put A on the left hand with the consonants. You see this with Colemak, Colemak-DH, Workman, Soul, Middlemak, and I’m including ISRT.
-
-There was difficulty getting all the vowels on one hand*, so these layouts leave A in the Qwerty location or punt one vowel to the consonant hand. (*The difficulty is that if you put a vowel on the index finger, you basically can’t put any consonants with it because that will create high SFB.)
-
-This is ok but is not the most optimal.
-
-#### The O-layouts
-
-These are the layouts that put O on the upper row on the vowel hand. Typically above E, but you also see above A. You see this with MTGAP, CTGAP, Canary, Semimak, Nerps, APTv3, Hands Down, Middlemak and Middlemak-NH. AFAIK this started with MTGAP, and the community has been playing with it since. 
-
-These put all the vowels on one hand to maximize alternating. This is because putting O on the upper row opens up another spot on the home row for another vowel. The index-finger-homerow can still be used for a consonant too without much issue.
-
-Though Y is still a problem - some layouts put it on the pinky-finger-upper-row, some on the index, some put it with the consonant hand.
+Enter the balancing act. You need some consonants on the vowel hand. But too much consonant frequency will lead to redirects, possible pinballing, one hand gymnastics, however you want to put it. Pay attention to how many frequent letters are put on the vowel hand (you can also see my Pinballing stats section). This can also be seen by where the 9th, 10th, and 11th most frequent letters go.
 
 
 ### The 9th, 10th, and 11th letters.
 
-When you look at the [letter frequency](https://commons.wikimedia.org/wiki/File:English_letter_frequency_(frequency\).svg) there are 11 very common letters before it takes a drop. There's 8 spots underneath the fingers, where the first 8 letters go. So that leaves 3 common letters and where do they go?
+When you look at the [letter frequency](https://commons.wikimedia.org/wiki/File:English_letter_frequency_(frequency\).svg) there are 11 very common letters before it takes a drop. There's 8 spots underneath the fingers, easy to place the first 8 letters there. The next question is where do the next 3 common letters go?
 
 This can have many effects:
 
-Where you will be reaching most of the time. So know which of your fingers are stronger and which movements are fine, and which are not. 
+Where these go affects where you will be reaching most of the time. Where you will be reaching most of the time. Know which of your fingers are stronger and which movements are fine, and which are not. 
 
 Possible redirects and pinballing. This can happen if several common consonants are placed next to the vowel cluster. 
 
-This is the biggest impact on hand balance. They add both more frequency and more distance to that one hand.
-
-
-### SFB distribution
-
-Also watch out for SFBs on pinky and ring fingers. The overall amount may be low, but putting notable amounts on the pinky or ring (typically by putting middle of the pack letters on them) may lead to SFBs on these weak fingers.
-
+This is the biggest impact on hand balance. It adds both more frequency and more distance to that one hand.
 
 ### The middle of the pack letters, or the low frequency letters
 
 There are many middle of the pack letters that can be distributed in many different ways. This will impact the load distribution if more load goes to the pinky, ring, middle, or index finger. While the effect is lower than the 9th, 10th, 11th letters, these really do add up.
 
-Another way to look at this is: Where are the low frequency letters? There are only 4 low frequency letters: Z X Q J. (Then it’s a small step to: K V. Then you’re basically in the middle of the pack.) 
+Another way to look at this is: There are four ultra low frequency letters; Z X Q J. Wherever these are placed de-emphasizes those fingers.
 
-Putting the 4 low frequency letters on the pinky or ring fingers means the middle and index fingers pick up more work. Putting the 4 low frequency letters on the centre columns means the pinky and ring pick up more work. 
+For example on Middlemak there are 2 on the pinky finger, 1 on the ring finger bottom row, and 1 on the centre column. De-emphasizing those locations means the center column has to pick up the middle of the pack letters. Personally I dislike moving the pinky much, don’t like the ring bottom row much, and I find the index finger dexterous, so I prefer to de-emphasize the pinky movement and ring bottom row. On the other hand some people dislike the center column, so many layouts place the ultra low frequency letters on the center column. This means the middle of the pack letters are typically moved to the pinky and ring fingers, bumping up the work they have to do. Unfortunately we can’t have it all, so know your fingers and where you want the work. 
 
-So know your fingers and where you want the work. 
+### SFB distribution
 
-### Difficulty maps
+I guess this isn’t quick (you can look at my charts above), but look where the SFBs are distributed. 
+
+If I had to rank SFB difficulty from hardest to easiest: Pinky SFBs are the hardest, then ring, then middle, then index SFBs are the easiest. 
+
+You can also add that for each finger two-row-jump-SFBs are harder, then one row jumps. For the index finger I’d rank them two-row-jump-off-home-row as the worst, then one-row-jump-off-home, then one-jump-home (you can break it down even more, but that’s the concept).
+
+## Small summary
+
+These are all important factors for a quick evaluation. The biggest ones are the vowels and consonants interaction, and the placement of the 9th, 10th, and 11th letters. Don’t forget those when looking at the families. 
+
+
+
+## The layout families
+
+I see a handful of layout families that cover most layouts (not all).
+
+### The A-layouts
+
+These are the layouts that put A on the left hand with the consonants. You see this with Colemak, Colemak-DH, Workman, Soul, Middlemak, and I include ISRT.
+
+There’s difficulty getting all the vowels on one hand, so these layouts leave A in the Qwerty location or punt one vowel to the consonant hand. The difficulty is that if you put a vowel on the index finger, you basically can’t put any consonants with it because that will create high SFB. So you have space for 3 on the pinky, ring, and middle finger. U and Y are infrequent enough to go on the top row. But you have one more vowel, typically the A, that gets punted to the consonant hand.
+
+This is ok but is not the most optimal (optimal being all vowels on one hand).
+
+### The O-layouts
+
+These are the layouts that put O on the upper row on the vowel hand - typically above E, but can also be above A. You see this with MTGAP, CTGAP, Canary, Semimak, Nerps, APTv3, Hands Down, Middlemak to some extent, and Middlemak-NH. AFAIK this started with MTGAP, and the community has been playing with it since. 
+
+There are generally two subgroups:
+
+First are ones that put AEIOU on the middle, ring, and pinky fingers (not the index finger). The index finger can be used for consonants. These are really good because putting all the vowels on one hand to maximize alternating and minimizes one hand gymnastics.
+
+Second are those that still put a vowel on the index finger. Typically this is paired with punctuation.
+
+The one problem that comes out of this is Y. You can put it on the pinky-finger-upper-row, on the index finger, or some punt it to the consonant hand. The problems with those respectively are it’s pretty common for that location, it usually creates SFBs, and creates a bunch of NFBs or one hand gymnastics with nearby consonants.
+
+
+### The H-layouts
+
+A newer family I see is the layouts that put H as the sole common consonant on the vowel hand. This includes Nerps, Graphite, Gallium, Northstar, Middlemak-NH, etc, (CTGAP 5/final could be in this family though it does have D as well.) I really like these layouts.
+
+First this means you can put Y on the index finger with H without a high SFB. So all the vowels including Y can easily be on the same hand, without putting Y on the pinky-upper-row (which imo is too frequent for that location).
+
+Second H pairs very well with the vowels. A) it’s almost always followed by a vowel, so very little H, to vowel, back to H. In effect it limits pinballing. B) It’s typically preceded by consonants T, C, W, S, or G. These can be placed on the opposite hand.  C) It has a high bigram rate with consonants, so it matches pretty well with the vowels which also have high bigram rate with consonants. 
+
+
+These families don’t cover everything, but it covers most and helps with quickly evaluating them.
+
+# Difficulty maps
 
 You typically see the standard difficulty map that puts a difficulty on each key. But I think you need more than the one standard difficulty map. For a fully optimized layout, you also need a difficulty map for ease-of-movement from one key to the next key. For example, on Qwerty the movement QA is slow, QS is very hard, QD is still hard, QF is ok, QZ is horrendous, QX is both horrendous and awkward, QC (with index pressing C) is meh but not good, QW is ok, QE is ok, QR is ok, (but all lead to a slightly weird hand position after), etc, *but Q+anything-on-right-hand is much better.* You want to create a whole map for Q and the difficulty of the next letter. But I think most analyzers and people focus on QA and QZ because it's a SFB. I think for a fully optimized computer analysis you need 31 difficulty maps - a map for each key and the difficulty of the next key. That’s on top of the standard single difficulty map.
 
